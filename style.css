@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #080101;
+  color: #333;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header, nav, section, footer {
+  padding: 20px;
+  margin: 10px;
+}
+
+header {
+  background-color: #4A90E2;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+
+nav {
+  text-align: center;
+  font-size: large;
+  background: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: navajowhite;
+  margin: 0 15px;
+  text-decoration: navajowhite;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: rgb(193, 162, 162);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px black;
+  font-size: x-large;
+
+}
+
+footer {
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: #f3eded;
+  margin-top: 5px;
+}
+.center-img {
+    width: 300px;
+    border-style: dotted;
+    border-radius: 150px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;    
+}
+
+#about h2 {
+    text-shadow: #333;
+    text-align: center;
+    text-decoration: underline;
+}
+#projects h2 {
+    text-align: center;
+    text-shadow: #333;
+    text-decoration: underline;
+}
+#projects {
+    text-align: center;
+    font-size: x-large;
+}
+#skills h2{
+    text-align: center;
+    text-shadow: #333;
+    text-decoration: underline;
+}
+#contacts h2{
+    text-align: center; 
+    text-shadow: #333;
+    text-decoration: underline;
+}
+.back-to-top {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  display: flexbox;
+  background-color: #4A90E2;
+  color: rgb(188, 152, 152);
+  padding: 10px 15px;
+  text-decoration: underline;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 30px;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #6482a0;
+  cursor: pointer;
+}
