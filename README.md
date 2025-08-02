@@ -10,6 +10,7 @@ This is a simple and clean personal portfolio website built with only HTML and C
 - Clean and structured layout
 - Sections:
   - About Me
+  - Educational background
   - Projects
   - Skills
   - Contact
@@ -21,7 +22,8 @@ This is a simple and clean personal portfolio website built with only HTML and C
 - CSS3
 
 🌐 View It Live
-[Click here to view my portfolio on GitHub Pages](https://github.com/timm927/bug-free-happiness)  
+Click here to view my portfolio on GitHub Pages 
+
 
 📘 What I Learned
 - Writing HTML structure from scratch  
