@@ -22,8 +22,7 @@ This is a simple and clean personal portfolio website built with only HTML and C
 - CSS3
 
 🌐 View It Live
-Click here to view my portfolio on GitHub Pages 
-
+🌐 [Click here to view my portfolio on GitHub Pages](https://timm927.github.io/hack-a-thon1/)
 
 📘 What I Learned
 - Writing HTML structure from scratch  
