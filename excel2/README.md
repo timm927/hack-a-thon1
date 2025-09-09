@@ -5,10 +5,10 @@ This project focuses on the analysis of insurance claims data using actuarial te
 
 📂 Dataset
 -The dataset includes the following key fields:
--Year – Policy year of the claim.
--Claim ID – Unique identifier for each claim.
--Gross Tonnage (GT) – Exposure measure (used for claim frequency analysis).
--Capped Net Inflation Adjusted Incurred Claim – Claim amount adjusted for inflation, capped to exclude extreme large losses.
+ -Year – Policy year of the claim.
+ -Claim ID – Unique identifier for each claim.
+ -Gross Tonnage (GT) – Exposure measure (used for claim frequency analysis).
+ -Capped Net Inflation Adjusted Incurred Claim – Claim amount adjusted for inflation, capped to exclude extreme large losses.
 
 🔍 Key Assumptions
 Commission = 0%
