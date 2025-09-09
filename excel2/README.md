@@ -1,70 +1,57 @@
-📊 Actuarial Claims Analysis Project
+Actuarial Claims Analysis Project 📊
 
-📌 Project Overview
+Overview
+Analyzed insurance claims data to calculate claim frequency and severity, evaluate trends, and understand risk exposure using actuarial techniques and Excel pivot tables. The project demonstrates how actuarial methods inform risk assessment and financial decision-making.
 
-This project focuses on the analysis of insurance claims data using actuarial techniques. The objective is to explore claim trends, calculate claim frequency and severity, and evaluate how inflation-adjusted losses evolve over time. Pivot tables in Excel were used to summarize the data and generate insights.
+Dataset
 
-📂 Dataset
--The dataset includes the following key fields:
+Year – Policy year of the claim
 
- -Year – Policy year of the claim.
- 
- -Claim ID – Unique identifier for each claim.
- 
- -Gross Tonnage (GT) – Exposure measure (used for claim frequency analysis).
- 
- -Capped Net Inflation Adjusted Incurred Claim – Claim amount adjusted for inflation, capped to exclude extreme large losses.
+Claim ID – Unique identifier for each claim
 
-🔍 Key Assumptions
+Gross Tonnage (GT) – Exposure measure for frequency analysis
+
+Capped Net Inflation Adjusted Incurred Claim – Claim amounts adjusted for inflation, extreme losses capped
+
+Key Assumptions
 
 Commission = 0%
 
-No adjustments for claims development patterns
+No claims development adjustments
 
-Policy period runs from 1st January – 31st December each year
+Policy period: 1 Jan – 31 Dec
 
-Large loss events are removed from severity calculations
+Extreme large losses removed from severity calculations
 
-📈 Analysis Performed
+Analysis Performed
 
--Claim Frequency by Gross Tonnage
+Claim Frequency: Number of claims per total GT per year to measure exposure-adjusted occurrence
 
-Claim Frequency = Number of Claims/Total Gross Tonnage
+Loss Severity: Average capped inflation-adjusted claim cost per year
 
-Calculated per year to understand how often claims occur relative to exposure.
+Trend Analysis: Yearly changes in frequency and severity to identify patterns across exposure levels
 
--Loss Severity (Average Cost per Claim)
+Tools & Methods
 
-Loss Severity = Sum of Capped Net Inflation Adjusted Incurred Claim/Count of Claim ID
+Microsoft Excel: Pivot tables, calculated fields, and charts for aggregation and visualization
 
-Calculated by year using pivot tables.
+Formulas: For frequency, severity, and adjusted averages
 
--Trend Analysis
+Outputs
 
-Yearly changes in average claim amounts (adjusted for inflation).
+Pivot tables summarizing yearly frequency and severity
 
-Frequency and severity patterns across different exposure levels.
+Charts showing trends in average claim costs and claim counts
 
-⚙️ Tools & Methods
-Microsoft Excel – Pivot tables for aggregation, trend visualization, and calculated fields.
+Comparison tables of gross vs. inflation-adjusted claims
 
-Formulas – To derive claim frequency, severity, and adjusted averages.
+Key Insights
 
-📊 Outputs
-Pivot tables summarizing yearly frequency and severity.
+Claim frequency per 1,000 GT remained stable across most years
 
-Charts showing trend analysis (average claim costs and claim counts over time).
+Loss severity showed an increasing trend after adjusting for inflation
 
-Tables comparing gross vs. inflation-adjusted claims.
+Removing extreme losses provided a more realistic view of claim severity
 
-🚀 Key Insights (Example placeholders – replace with your findings)
-
-Claim frequency per 1,000 GT remained stable across most years.
-
-Loss severity showed an increasing trend after adjusting for inflation.
-
-Removal of extreme large losses provided a more realistic view of claim severity.
-
-✅ Conclusion
-
-This project demonstrates the use of actuarial methods in claims analysis, leveraging Excel pivot tables to calculate key metrics such as claim frequency and loss severity. The results help in understanding risk exposure, pricing adequacy, and loss trends over time.
+Conclusion
+This project demonstrates the practical application of actuarial methods to claims analysis. By calculating key metrics and visualizing trends, it provides insights into risk exposure and supports informed financial decision-making
