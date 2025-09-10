@@ -1,17 +1,39 @@
-Evergreen Revenue Audit Project(KPMG Virtual Internship)
+Evergreen Revenue Audit Project (KPMG Virtual Internship) 📊
 
-This repo contains my work on an audit simulation for Evergreen, focusing on revenue testing.  
+Overview
+Simulated an audit engagement for Evergreen, focusing on revenue testing. The project demonstrates financial data analysis, audit procedures, and the ability to identify anomalies in revenue streams using Excel and Power BI.
 
-What I Did
-- Used Power BI to look at monthly revenue trends.  
-  - Found a big spike that was uncalled for in the beginning and near end of March that could point to cut-off risk.  
-- Tested 5 invoices against the sub-ledger in Excel.  
-  - All matched — no errors or missing info.  
-- Used VLOOKUP and SUMIF tools.
- - Found and pulled revenues from the trial balances automatically, saving time on manual lookup, and used SUMIF to calculate total values hence summarizing the revenues for different sales accounts
+Key Tasks & Methodology
 
-What I achieved
-- I summarized the revenue streams for different sales account between two years.
-- I built simple visuals in Power BI to spot unusual patterns.  
-- I tested 5 different invoices within a month to get the bigger audit picture on Evergreen's revenues.  
-- Showed that my work as a junior auditor fits into the team’s overall engagement.  
+Revenue Trend Analysis – Used Power BI to visualize monthly revenues and identify unusual spikes, indicating potential cut-off risks.
+
+Invoice Testing – Selected 5 invoices and cross-checked against the sub-ledger in Excel using VLOOKUP and SUMIF, confirming accuracy.
+
+Data Summarization – Automated revenue extraction from trial balances and summarized total revenues across different sales accounts.
+
+Visualization – Built simple Power BI visuals to highlight trends and anomalies in revenue data.
+
+Tools & Methods
+
+Microsoft Excel: Data validation, formulas (VLOOKUP, SUMIF), and cross-referencing
+
+Power BI: Revenue trend visualization and anomaly detection
+
+Outputs
+
+Summarized revenue streams for different sales accounts across two years
+
+Power BI visuals identifying unusual patterns in revenue
+
+Documentation of tested invoices confirming accuracy
+
+Key Insights / Achievements
+
+Detected unusual revenue patterns, highlighting potential cut-off risks
+
+Automated manual revenue extraction, improving efficiency
+
+Demonstrated the ability to integrate junior audit work into overall engagement, emphasizing analytical and teamwork skills
+
+Conclusion
+This project highlights practical audit skills, financial data analysis, and visualization capabilities. It demonstrates the ability to detect anomalies, summarize complex datasets, and contribute to team-based financial assessments — skills directly applicable to Treasury and risk analysis roles.
