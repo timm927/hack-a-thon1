@@ -1,12 +1,12 @@
-#📊 **Quantitative Analysis and Risk Modeling Project**
+📊#**Quantitative Analysis and Risk Modeling Project**
 
-##🌍 **Overview**
+🌍##**Overview**
 
 This project applies data analysis, predictive modeling, and risk quantification to real-world financial challenges in commodity trading and retail banking.
 Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Forage).
 
 
-##🔑 **Core Areas:**
+🔑##**Core Areas:**
 
    Natural Gas Price Analysis – forecasting & seasonal trends
 
@@ -19,7 +19,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Tech Stack: Python, pandas, numpy, scikit-learn, matplotlib
    
 
-###📈 **Task 1: Natural Gas Price Analysis**
+📈###**Task 1: Natural Gas Price Analysis**
 
    Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
 
@@ -32,7 +32,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Tools: pandas, numpy, matplotlib, scipy
    
 
-###💰 **Task 2: Storage Contract Pricing Model**
+💰###**Task 2: Storage Contract Pricing Model**
 
    Designed a prototype valuation model for natural gas storage contracts
 
@@ -46,7 +46,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Tools: Python, pandas, numpy
    
 
-###🏦 **Task 3: Credit Risk Analysis for Retail Loans**
+🏦###**Task 3: Credit Risk Analysis for Retail Loans**
 
    Built a Probability of Default (PD) model using logistic regression & tree-based methods
 
@@ -60,7 +60,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Tools: scikit-learn, pandas, numpy, matplotlib
    
 
-###📉 **Task 4: FICO Score Bucketing for Mortgage Risk**
+📉###**Task 4: FICO Score Bucketing for Mortgage Risk**
 
    Converted continuous FICO scores (300–850) into optimized buckets
 
@@ -71,7 +71,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Tools: numpy, pandas, dynamic programming
    
 
-###📦**Deliverables**
+📦###**Deliverables**
 
    ✅ Python scripts / Jupyter notebooks for each task
 
@@ -80,7 +80,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    ✅ Visualizations: gas price trends, credit default rates, FICO buckets
    
 
-###💡**Key Insights**
+💡###**Key Insights**
 
    Seasonal gas price patterns reveal profitable storage opportunities
 
@@ -91,7 +91,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    Optimized FICO buckets enable better categorical risk modeling
    
 
-###⚙️**How to Use**
+⚙️###**How to Use**
 
    1. Clone repo & install dependencies:
 
@@ -109,7 +109,7 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
    4️⃣ Task4_fico_bucket.py → generate optimized FICO buckets
   
 
-###🏁 **Conclusion**
+🏁###**Conclusion**
 
 This project showcases how quantitative finance, predictive modeling, and optimization can drive data-driven decision-making in:
 Commodity trading, 
