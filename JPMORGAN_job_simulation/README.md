@@ -18,75 +18,51 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
 
 📈 Task 1: Natural Gas Price Analysis
 
-  Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
+    Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
 
-   Detected seasonal price trends and interpolated missing values
+    Detected seasonal price trends and interpolated missing values
 
-   Extrapolated prices 1 year ahead
+    Extrapolated prices 1 year ahead
 
-   Built a reusable Python function returning estimated prices for any date
+    Built a reusable Python function returning estimated prices for any date
 
-  Tools: pandas, numpy, matplotlib, scipy
+    Tools: pandas, numpy, matplotlib, scipy
 
 💰 Task 2: Storage Contract Pricing Model
 
-   Designed a prototype valuation model for natural gas storage contracts
+    Designed a prototype valuation model for natural gas storage contracts
 
-   Captured cash flows from injection, withdrawal, and storage costs
+    Captured cash flows from injection, withdrawal, and storage costs
 
-   Tested scenarios with different volumes, rates, and cost assumptions
+    Tested scenarios with different volumes, rates, and cost assumptions
 
-Formula:
-
-Value
-=
-(
-Sell Price
-−
-Buy Price
-)
-×
-Volume
-−
-Costs
+Formula:        
 Value=(Sell Price−Buy Price)×Volume−Costs
 
-Tools: Python, pandas, numpy
+    Tools: Python, pandas, numpy
 
 🏦 Task 3: Credit Risk Analysis for Retail Loans
 
-   Built a Probability of Default (PD) model using logistic regression & tree-based methods
+    Built a Probability of Default (PD) model using logistic regression & tree-based methods
 
-   Computed Expected Loss (EL):
+    Computed Expected Loss (EL):
+     EL=PD×Exposure×(1−Recovery Rate)
 
-EL
-=
-PD
-×
-Exposure
-×
-(
-1
-−
-Recovery Rate
-)
-EL=PD×Exposure×(1−Recovery Rate)
+    Assumed 10% recovery rate
 
-  Assumed 10% recovery rate
+    Created a function to estimate expected loss for borrower profiles
 
-  Created a function to estimate expected loss for borrower profiles
-
-Tools: scikit-learn, pandas, numpy, matplotlib
+    Tools: scikit-learn, pandas, numpy, matplotlib
 
 📉 Task 4: FICO Score Bucketing for Mortgage Risk
 
-  Converted continuous FICO scores (300–850) into optimized buckets
+    Converted continuous FICO scores (300–850) into optimized buckets
 
-  Applied log-likelihood optimization to separate risk levels
+    Applied log-likelihood optimization to separate risk levels
 
-  Visualized default rates per FICO bucket for clear risk stratification
+    Visualized default rates per FICO bucket for clear risk stratification
 
-  Tools: numpy, pandas, dynamic programming
+    Tools: numpy, pandas, dynamic programming
 
 📦 Deliverables
 
@@ -106,9 +82,9 @@ Tools: scikit-learn, pandas, numpy, matplotlib
 
 ⚙️ How to Use
 
-  Clone repo & install dependencies:
+   Clone repo & install dependencies:
 
-  pip install pandas numpy scikit-learn matplotlib seaborn
+    pip install pandas numpy scikit-learn matplotlib seaborn
 
 
   Run scripts:
@@ -121,10 +97,10 @@ Tools: scikit-learn, pandas, numpy, matplotlib
 
 This project showcases how quantitative finance, predictive modeling, and optimization can drive data-driven decision-making in:
 
-   Commodity trading
+    Commodity trading
 
-   Retail credit
+    Retail credit
 
-   Mortgage risk
+    Mortgage risk
 
 The methods are scalable and generalizable, making them highly relevant to modern financial institutions.
