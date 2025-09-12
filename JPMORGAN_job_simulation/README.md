@@ -6,35 +6,35 @@ Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Fo
 
 🔑 Core Areas:
 
-📈 Natural Gas Price Analysis – forecasting & seasonal trends
+     📈 Natural Gas Price Analysis – forecasting & seasonal trends
 
-💰 Storage Contract Pricing – prototype valuation model
+     💰 Storage Contract Pricing – prototype valuation model
 
-🏦 Credit Risk Modeling – default prediction & expected loss
+     🏦 Credit Risk Modeling – default prediction & expected loss
 
-📉 FICO Score Bucketing – optimized segmentation for mortgage risk
+     📉 FICO Score Bucketing – optimized segmentation for mortgage risk
 
-Tech Stack: Python, pandas, numpy, scikit-learn, matplotlib
+      Tech Stack: Python, pandas, numpy, scikit-learn, matplotlib
 
 📈 Task 1: Natural Gas Price Analysis
 
-🔍 Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
+  Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
 
-📊 Detected seasonal price trends and interpolated missing values
+   Detected seasonal price trends and interpolated missing values
 
-⏳ Extrapolated prices 1 year ahead
+   Extrapolated prices 1 year ahead
 
-🛠️ Built a reusable Python function returning estimated prices for any date
+   Built a reusable Python function returning estimated prices for any date
 
-Tools: pandas, numpy, matplotlib, scipy
+  Tools: pandas, numpy, matplotlib, scipy
 
 💰 Task 2: Storage Contract Pricing Model
 
-📦 Designed a prototype valuation model for natural gas storage contracts
+   Designed a prototype valuation model for natural gas storage contracts
 
-💵 Captured cash flows from injection, withdrawal, and storage costs
+   Captured cash flows from injection, withdrawal, and storage costs
 
-🧪 Tested scenarios with different volumes, rates, and cost assumptions
+   Tested scenarios with different volumes, rates, and cost assumptions
 
 Formula:
 
@@ -55,9 +55,9 @@ Tools: Python, pandas, numpy
 
 🏦 Task 3: Credit Risk Analysis for Retail Loans
 
-🧮 Built a Probability of Default (PD) model using logistic regression & tree-based methods
+   Built a Probability of Default (PD) model using logistic regression & tree-based methods
 
-📉 Computed Expected Loss (EL):
+   Computed Expected Loss (EL):
 
 EL
 =
@@ -72,21 +72,21 @@ Recovery Rate
 )
 EL=PD×Exposure×(1−Recovery Rate)
 
-🔢 Assumed 10% recovery rate
+  Assumed 10% recovery rate
 
-⚙️ Created a function to estimate expected loss for borrower profiles
+  Created a function to estimate expected loss for borrower profiles
 
 Tools: scikit-learn, pandas, numpy, matplotlib
 
 📉 Task 4: FICO Score Bucketing for Mortgage Risk
 
-🗂️ Converted continuous FICO scores (300–850) into optimized buckets
+  Converted continuous FICO scores (300–850) into optimized buckets
 
-📐 Applied log-likelihood optimization to separate risk levels
+  Applied log-likelihood optimization to separate risk levels
 
-📊 Visualized default rates per FICO bucket for clear risk stratification
+  Visualized default rates per FICO bucket for clear risk stratification
 
-Tools: numpy, pandas, dynamic programming
+  Tools: numpy, pandas, dynamic programming
 
 📦 Deliverables
 
@@ -96,35 +96,35 @@ Tools: numpy, pandas, dynamic programming
 
 💡 Key Insights
 
-🔁 Seasonal gas price patterns reveal profitable storage opportunities
+   Seasonal gas price patterns reveal profitable storage opportunities
 
-⚖️ Storage/transaction costs are critical in contract pricing
+   Storage/transaction costs are critical in contract pricing
 
-🤖 Predictive models improve retail loan risk forecasting
+   Predictive models improve retail loan risk forecasting
 
-🏷️ Optimized FICO buckets enable better categorical risk modeling
+   Optimized FICO buckets enable better categorical risk modeling
 
 ⚙️ How to Use
 
-Clone repo & install dependencies:
+  Clone repo & install dependencies:
 
-pip install pandas numpy scikit-learn matplotlib seaborn
+  pip install pandas numpy scikit-learn matplotlib seaborn
 
 
-Run scripts:
-1️⃣ Task1_price_analysis.py → analyze & forecast gas prices
-2️⃣ Task2_contract_pricing.py → compute storage contract values
-3️⃣ Task3_credit_risk_model.py → predict expected losses
-4️⃣ Task4_fico_bucket.py → generate optimized FICO buckets
+  Run scripts:
+  1️⃣ Task1_price_analysis.py → analyze & forecast gas prices
+  2️⃣ Task2_contract_pricing.py → compute storage contract values
+  3️⃣ Task3_credit_risk_model.py → predict expected losses
+  4️⃣ Task4_fico_bucket.py → generate optimized FICO buckets
 
 🏁 Conclusion
 
 This project showcases how quantitative finance, predictive modeling, and optimization can drive data-driven decision-making in:
 
-📊 Commodity trading
+   Commodity trading
 
-🏦 Retail credit
+   Retail credit
 
-🏡 Mortgage risk
+   Mortgage risk
 
 The methods are scalable and generalizable, making them highly relevant to modern financial institutions.
