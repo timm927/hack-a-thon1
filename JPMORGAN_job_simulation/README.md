@@ -1,39 +1,40 @@
-Quantitative Analysis and Risk Modeling Project
-Overview
+📊 Quantitative Analysis and Risk Modeling Project
+🌍 Overview
 
-This project applies data analysis, predictive modeling, and risk quantification to real-world financial problems in commodity trading and retail banking. It was developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Forage).
+This project applies data analysis, predictive modeling, and risk quantification to real-world financial challenges in commodity trading and retail banking.
+Developed as part of the J.P. Morgan Quantitative Finance Virtual Internship (Forage).
 
-The work covers:
+🔑 Core Areas:
 
-Natural Gas Price Analysis – forecasting and seasonal trend detection
+📈 Natural Gas Price Analysis – forecasting & seasonal trends
 
-Prototype Storage Contract Pricing – valuation of natural gas storage deals
+💰 Storage Contract Pricing – prototype valuation model
 
-Retail Credit Risk Modeling – default prediction and expected loss estimation
+🏦 Credit Risk Modeling – default prediction & expected loss
 
-FICO Score Bucketing – optimized credit score segmentation for mortgage risk
+📉 FICO Score Bucketing – optimized segmentation for mortgage risk
 
-The project is implemented in Python, using pandas, numpy, scikit-learn, and matplotlib.
+Tech Stack: Python, pandas, numpy, scikit-learn, matplotlib
 
-Task 1: Natural Gas Price Analysis
+📈 Task 1: Natural Gas Price Analysis
 
-Analyzed monthly natural gas prices (Oct 2020 – Sep 2024).
+🔍 Analyzed monthly natural gas prices (Oct 2020 – Sep 2024)
 
-Detected seasonal trends and interpolated historical values.
+📊 Detected seasonal price trends and interpolated missing values
 
-Extrapolated prices one year ahead.
+⏳ Extrapolated prices 1 year ahead
 
-Built a function returning estimated prices for any given date.
+🛠️ Built a reusable Python function returning estimated prices for any date
 
 Tools: pandas, numpy, matplotlib, scipy
 
-Task 2: Storage Contract Pricing Model
+💰 Task 2: Storage Contract Pricing Model
 
-Designed a prototype valuation function for natural gas storage contracts.
+📦 Designed a prototype valuation model for natural gas storage contracts
 
-Captured cash flows from injection, withdrawal, and storage costs.
+💵 Captured cash flows from injection, withdrawal, and storage costs
 
-Tested scenarios with different volumes, rates, and cost assumptions.
+🧪 Tested scenarios with different volumes, rates, and cost assumptions
 
 Formula:
 
@@ -52,11 +53,11 @@ Value=(Sell Price−Buy Price)×Volume−Costs
 
 Tools: Python, pandas, numpy
 
-Task 3: Credit Risk Analysis for Retail Loans
+🏦 Task 3: Credit Risk Analysis for Retail Loans
 
-Built a probability of default (PD) model using logistic regression and tree-based methods.
+🧮 Built a Probability of Default (PD) model using logistic regression & tree-based methods
 
-Computed Expected Loss:
+📉 Computed Expected Loss (EL):
 
 EL
 =
@@ -71,57 +72,59 @@ Recovery Rate
 )
 EL=PD×Exposure×(1−Recovery Rate)
 
-Assumed recovery rate of 10%.
+🔢 Assumed 10% recovery rate
 
-Developed a function to estimate expected loss for any borrower profile.
+⚙️ Created a function to estimate expected loss for borrower profiles
 
 Tools: scikit-learn, pandas, numpy, matplotlib
 
-Task 4: FICO Score Bucketing for Mortgage Risk
+📉 Task 4: FICO Score Bucketing for Mortgage Risk
 
-Mapped continuous FICO scores (300–850) into optimized categorical buckets.
+🗂️ Converted continuous FICO scores (300–850) into optimized buckets
 
-Used log-likelihood optimization to separate risk levels.
+📐 Applied log-likelihood optimization to separate risk levels
 
-Produced a risk rating map and visualized default rates by bucket.
+📊 Visualized default rates per FICO bucket for clear risk stratification
 
 Tools: numpy, pandas, dynamic programming
 
-Deliverables
+📦 Deliverables
 
-Python scripts / Jupyter notebooks for each task
+✅ Python scripts / Jupyter notebooks for each task
+✅ Functions for price estimation, contract valuation, credit risk, and FICO bucketing
+✅ Visualizations: gas price trends, credit default rates, FICO buckets
 
-Functions for price estimation, contract valuation, credit loss prediction, and FICO bucketing
+💡 Key Insights
 
-Visualizations: seasonal gas price trends, default rates vs. FICO buckets
+🔁 Seasonal gas price patterns reveal profitable storage opportunities
 
-Key Insights
+⚖️ Storage/transaction costs are critical in contract pricing
 
-Seasonal gas price patterns inform storage contract timing and profitability.
+🤖 Predictive models improve retail loan risk forecasting
 
-Pricing models must adjust for transaction and storage costs to remain realistic.
+🏷️ Optimized FICO buckets enable better categorical risk modeling
 
-Predictive models significantly improve retail loan risk forecasting.
+⚙️ How to Use
 
-Optimal FICO bucketing improves credit model performance while preserving risk separation.
-
-How to Use
-
-Clone the repository and install dependencies:
+Clone repo & install dependencies:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 
 Run scripts:
+1️⃣ Task1_price_analysis.py → analyze & forecast gas prices
+2️⃣ Task2_contract_pricing.py → compute storage contract values
+3️⃣ Task3_credit_risk_model.py → predict expected losses
+4️⃣ Task4_fico_bucket.py → generate optimized FICO buckets
 
-Task1_price_analysis.py – analyze and forecast gas prices
+🏁 Conclusion
 
-Task2_contract_pricing.py – compute storage contract values
+This project showcases how quantitative finance, predictive modeling, and optimization can drive data-driven decision-making in:
 
-Task3_credit_risk_model.py – predict expected losses
+📊 Commodity trading
 
-Task4_fico_bucket.py – generate FICO buckets
+🏦 Retail credit
 
-Conclusion
+🏡 Mortgage risk
 
-This project demonstrates how quantitative methods, predictive modeling, and optimization can be applied to financial risk management. The techniques are generalizable to problems in commodities, retail credit, and mortgage risk, and provide a foundation for automated decision-making in financial institutions.
+The methods are scalable and generalizable, making them highly relevant to modern financial institutions.
