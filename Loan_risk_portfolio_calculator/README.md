@@ -1,15 +1,15 @@
-Loan Portfolio Risk & Valuation Project 📊
+# **Loan Portfolio Risk & Valuation Project 📊**
 
-Overview
+# **Overview**
 Estimated credit risk and present value (PV) of expected cash flows for a portfolio of loans by combining loan-level probability of default (PD), loss given default (LGD), and cash flow schedules. The project evaluates expected portfolio performance under multiple discount rate scenarios, providing insights into credit risk and sensitivity.
 
-Dataset
+## **Dataset**
 
 summary.csv – Loan-level data: LoanID, Principal, PD_Annual, LGD
 
 LoanPortfolio.xlsx – Monthly amortization schedule: LoanID, Month, Cash Flow
 
-Key Steps
+## **Key Steps**
 
 Convert Annual to Monthly PD – Transformed annual PDs to monthly probabilities for accurate cash flow modeling.
 
@@ -29,7 +29,7 @@ Sensitivity Analysis – Measured change in portfolio PV under low and high rate
 
 Expected Loss Calculation – Computed expected credit loss = Cash Flow × PD × LGD, with optional discounting.
 
-Tools & Methods
+## **Tools & Methods**
 
 Python / Excel: Data processing, aggregation, and visualization
 
@@ -37,7 +37,7 @@ Discounted cash flow and risk formulas applied at loan and portfolio levels
 
 Sensitivity analysis for rate changes and risk exposure
 
-Outputs
+## **Outputs**
 
 portfolio_expected_cashflow.csv – Portfolio-level monthly expected cash flows and discount factors
 
@@ -45,7 +45,7 @@ Console outputs: Portfolio PV under low, base, high rates; sensitivity; total ex
 
 Visualizations in Excel or Python charts for trend analysis and interpretation
 
-Key Insights
+## **Key Insights**
 
 Quantifies economic value and risk of a loan portfolio under varying discount rates
 
@@ -53,5 +53,6 @@ Incorporates credit risk through PD and LGD metrics
 
 Produces actionable outputs: expected cash flows, expected losses, and sensitivity metrics
 
-Conclusion
+## **Conclusion**
+
 This project demonstrates quantitative credit risk modeling and portfolio valuation techniques. It provides a transparent, data-driven approach to understanding the financial impact of loans, discount rate sensitivity, and expected losses — skills directly applicable to Treasury operations and risk management.
