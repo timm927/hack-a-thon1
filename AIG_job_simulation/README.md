@@ -36,7 +36,7 @@ Trend Analysis: Yearly changes in frequency and severity to identify patterns ac
 
 Microsoft Excel: Pivot tables, calculated fields, and charts for aggregation and visualization
 
-Formulas: For frequency, severity, and adjusted averages
+Coded Formulas: For frequency, severity, and adjusted averages
 
 ## **Outputs**
 
