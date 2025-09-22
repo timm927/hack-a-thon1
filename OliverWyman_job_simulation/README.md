@@ -1,4 +1,4 @@
-🌍# Oliver Wyman Climate Change Job Simulation  
+# Oliver Wyman Climate Change Job Simulation  
 
 This project is based on the **Oliver Wyman Financial Services: Climate Change Job Simulation** completed on the Forage platform in September 2025.  
 It focuses on understanding **financed emissions**, exploring **target metrics**, analyzing **net-zero scenarios**, and providing **strategic recommendations** for a client bank (Bank ABC).  
